@@ -30,6 +30,7 @@ class Login extends React.Component {
     this.submitForm = (email, password) => ev => {
       ev.preventDefault();
       this.props.onSubmit(email, password);
+      console.log("changes");
     };
   }
 
