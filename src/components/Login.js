@@ -31,6 +31,7 @@ class Login extends React.Component {
       ev.preventDefault();
       this.props.onSubmit(email, password);
       console.log("changes");
+      console.log("testing TIA");
     };
   }
 
