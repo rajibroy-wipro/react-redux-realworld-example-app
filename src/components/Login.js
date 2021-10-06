@@ -32,6 +32,7 @@ class Login extends React.Component {
       this.props.onSubmit(email, password);
       console.log("changes");
       console.log("testing TIA");
+      console.log("some more changes");
     };
   }
 
